@@ -13,7 +13,7 @@
     <header>
         <nav>
             
-            <div class="navbar bg-[#F85559]">
+            <div class="navbar bg-[#F85559] rounded-full my-8">
                 <div class="navbar-start">
                   <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -41,7 +41,7 @@
                   </div>
                 
                 <div class="navbar-end">
-                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto rounded-full" />
                 </div>
               </div>
              
@@ -93,6 +93,36 @@
                 <h1 class=" my-8 text-5xl font-bold">Deal of the day</h1>
                 <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>
                      Latin literature from 45 BC, making it over 2000 years old.</p>
+        
+                        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                            <div class="flex flex-col">
+                              <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                              </span>
+                              Days
+                            </div> 
+                            <div class="flex flex-col">
+                              <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                              </span>
+                              Hours
+                            </div> 
+                            <div class="flex flex-col">
+                              <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                              </span>
+                              Minutes
+                            </div> 
+                            <div class="flex flex-col">
+                              <span class="countdown font-mono text-5xl">
+                                <span style="--value:42;"></span>
+                              </span>
+                              Seconds
+                            </div>
+                          </div>
+                        </div>
+            
+                     
             <div class="grid grid-cols-4 gap-24 my-16">
                 
             <div class="card w-96 bg-base-100 shadow-xl">
